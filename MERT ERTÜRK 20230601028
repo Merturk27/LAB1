@@ -1,0 +1,147 @@
+name=input("what is your name")
+
+print("Hello " + name )
+
+id =input("what is your student id ")
+
+print("Your id is " + id)
+
+
+
+
+
+totalseconds=int(input("Enter the number of seconds "))
+
+totalhour = totalseconds // 3600
+
+remainsecond = totalseconds % 3600
+
+totalminute = remainsecond // 60
+
+second = remainsecond % 60
+
+print(totalseconds , "second is " , totalhour , "hours , " , totalminute , "minute , and " , second , "seconds")
+
+
+
+
+
+
+import math
+
+cr1=int(input("Enter the coordinate 1 : "))
+cr2=int(input("Enter the coordinate 2 : "))
+cr3=int(input("Enter the coordinate 3 : "))
+cr4=int(input("Enter the coordinate 4 : "))
+
+distance=math.sqrt((cr2-cr1)**2 + (cr4-cr3)**2)
+
+print("distance is : " , distance )
+
+
+
+
+
+
+
+print("*****\n****\n***\n**\n*")
+
+
+
+
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+    string name;
+    string studentID;
+
+    cout << "What is your name?" << endl;
+    getline(cin, name);
+
+    cout << "Hello " << name << "." << endl;
+
+    cout << "What is your Student ID?" << endl;
+    getline(cin, studentID);
+
+    cout << "Your ID is " << studentID << "." << endl;
+
+    return 0;
+}
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int totalSeconds;
+    
+    cout << "Enter the number of seconds: ";
+    cin >> totalSeconds;
+
+    int totalHour = totalSeconds / 3600;
+    int remainSecond = totalSeconds % 3600;
+
+    int totalMinute = remainSecond / 60;
+    int second = remainSecond % 60;
+
+    cout << totalSeconds << " seconds is "
+         << totalHour << " hours, "
+         << totalMinute << " minutes, and "
+         << second << " seconds." << endl;
+
+    return 0;
+}
+
+
+#include <iostream>
+#include <cmath>  
+
+using namespace std;
+
+int main() {
+    int x1, y1, x2, y2;
+
+    
+    cout << "Enter x1: ";
+    cin >> x1;
+    cout << "Enter y1: ";
+    cin >> y1;
+    cout << "Enter x2: ";
+    cin >> x2;
+    cout << "Enter y2: ";
+    cin >> y2;
+
+    
+    int distance = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
+
+    cout << "The distance between (" << x1 << ", " << y1 << ") and ("
+         << x2 << ", " << y2 << ") is " << distance << endl;
+
+    return 0;
+}
+
+#include "coordinate_geometry.h"
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "*******\n *****\n  ***\n   *\n";
+    return 0;
+}
+
+
+
+
+
+
+
+
+
